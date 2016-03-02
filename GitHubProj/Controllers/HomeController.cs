@@ -18,6 +18,8 @@ namespace GitHubProj.Controllers
             ViewBag.Message = "Your application description page.";
 
             return View();
+
+
         }
 
         public ActionResult Contact()
