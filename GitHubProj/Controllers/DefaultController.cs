@@ -12,6 +12,8 @@ namespace GitHubProj.Controllers
         public ActionResult Index()
         {
             return View();
+
+
         }
     }
 }
