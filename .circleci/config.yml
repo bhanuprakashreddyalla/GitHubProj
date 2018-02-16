@@ -10,3 +10,8 @@ jobs:
           - run: dotnet build XUnitTestProj2
           - run: dotnet test XUnitTestProj2
 
+workflows:
+  version: 2
+  build123:
+    jobs:
+      - buildCore
