@@ -6,7 +6,7 @@ jobs:
           - image: microsoft/dotnet:sdk
         steps:
           - checkout
-          - run: dotnet restore
-          - run: dotnet build
-          - run: dotnet test
+          - run: dotnet restore XUnitTestProj2
+          - run: dotnet build XUnitTestProj2
+          - run: dotnet test XUnitTestProj2
 
