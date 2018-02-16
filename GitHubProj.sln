@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleCIProj", "CircleCIPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProj", "XUnitTestProj\XUnitTestProj.csproj", "{24443539-8818-42C7-9073-4CC20453B769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProj2", "XUnitTestProj2\XUnitTestProj2.csproj", "{F135B232-FA51-4F1C-B96B-6DC739492A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{24443539-8818-42C7-9073-4CC20453B769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24443539-8818-42C7-9073-4CC20453B769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24443539-8818-42C7-9073-4CC20453B769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F135B232-FA51-4F1C-B96B-6DC739492A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F135B232-FA51-4F1C-B96B-6DC739492A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F135B232-FA51-4F1C-B96B-6DC739492A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F135B232-FA51-4F1C-B96B-6DC739492A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
