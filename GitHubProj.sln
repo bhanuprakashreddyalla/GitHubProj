@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubProj", "GitHubProj\GitHubProj.csproj", "{0393295E-FD1E-444E-913D-7F86C37B2B54}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleCIProj", "CircleCIProj\CircleCIProj.csproj", "{176AEE58-144F-46E5-994B-3B5E17FF57F2}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0393295E-FD1E-444E-913D-7F86C37B2B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0393295E-FD1E-444E-913D-7F86C37B2B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0393295E-FD1E-444E-913D-7F86C37B2B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0393295E-FD1E-444E-913D-7F86C37B2B54}.Release|Any CPU.Build.0 = Release|Any CPU
 		{176AEE58-144F-46E5-994B-3B5E17FF57F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{176AEE58-144F-46E5-994B-3B5E17FF57F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176AEE58-144F-46E5-994B-3B5E17FF57F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
