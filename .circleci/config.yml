@@ -1,7 +1,7 @@
 version: 2
 jobs:
     build:
-        working_directory: ~/GitHubProj
+        working_directory: ~/CircleCIProj
         docker:
           - image: microsoft/dotnet:sdk
         environment:
