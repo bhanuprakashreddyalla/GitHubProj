@@ -1,6 +1,6 @@
 version: 2
 jobs:
-    build:
+    buildCore:
         working_directory: ~/CircleCIProj
         docker:
           - image: microsoft/dotnet:sdk
