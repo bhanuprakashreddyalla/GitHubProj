@@ -10,7 +10,7 @@ jobs:
           - run: apt-get install -y nuget mono-devel mono-xbuild
           - run: nuget update -self
           - run: nuget restore
-          - run: xbuild 
+          - run: cd dotnet xbuild
 
 workflows:
   version: 2
