@@ -7,7 +7,7 @@ jobs:
         steps:
           - checkout
           - run: apt-get update 
-          - run: apt-get install -y nuget mono-devel mono-xbuild
+          - run: apt-get install -y nuget mono-devel mono-xbuild mono-complete
           - run: nuget update -self
           - run: nuget restore
           - run: xbuild
