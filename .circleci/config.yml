@@ -1,7 +1,7 @@
 version: 2
 jobs:
     buildCore:
-        working_directory: ~/CoreDotNet
+        working_directory: ~/dotnet
         docker:
           - image: microsoft/dotnet:sdk
         steps:
