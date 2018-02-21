@@ -6,10 +6,10 @@ jobs:
           - image: microsoft/dotnet:sdk
         steps:
           - checkout
-          - run: apt-get update && apt-get install -y mono-complete 
+          - run: apt-get update && apt-get install -y mono-complete 5.8.0 
           - run: apt-get update && apt-get install -y mono-xsp4
           - run: dotnet restore 
-          - run: msbuild 
+          - run: xbuild 
           - run: dotnet test 
 
 workflows:
