@@ -5,12 +5,14 @@ jobs:
         windows:
         steps:
           - checkout
-          - run: apt-get update && apt-get install -y mono-complete 5.8.0
+          - run: apt-get update 
+          - run: apt-get install -y nuget mono-devel mono-xbuild
+          - run: nuget update -self
           - run: xbuild 
-          - run: dotnet test 
 
 workflows:
   version: 2
   build123:
     jobs:
       - buildCore
+    
