@@ -7,8 +7,9 @@ jobs:
         steps:
           - checkout
           - run: apt-get update && apt-get install -y mono-complete 
+          - run: apt-get update && apt-get install -y mono-xsp4
           - run: dotnet restore 
-          - run: xbuild 
+          - run: dotnet msbuild 
           - run: dotnet test 
 
 workflows:
