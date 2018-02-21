@@ -3,7 +3,7 @@ jobs:
     buildCore:
         working_directory: ~/dotnet
         docker:
-            - image: microsoft/windowsservercore
+            - image: microsoft/dotnet:sdk
         steps:
           - checkout
           - run: apt-get update 
