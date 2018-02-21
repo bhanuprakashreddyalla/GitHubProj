@@ -5,9 +5,9 @@ jobs:
         docker:
           - image: microsoft/dotnet:sdk
         steps:
-            - run: apt-get update && apt-get install -y mono-complete 
-            - run: apt-get update && apt-get install -y mono-xsp4
           - checkout
+          - run: apt-get update && apt-get install -y mono-complete 
+          - run: apt-get update && apt-get install -y mono-xsp4
           - run: dotnet restore 
           - run: dotnet build 
           - run: dotnet test 
