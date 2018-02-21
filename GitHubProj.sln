@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProj2", "XUnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreDotNet", "CoreDotNet\CoreDotNet.csproj", "{59744D59-BF1E-4775-B309-74D46EE8EC3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet", "dotnet\dotnet.csproj", "{B23386EC-8D84-4A6B-98F7-0299CC6BCADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{59744D59-BF1E-4775-B309-74D46EE8EC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59744D59-BF1E-4775-B309-74D46EE8EC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59744D59-BF1E-4775-B309-74D46EE8EC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23386EC-8D84-4A6B-98F7-0299CC6BCADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23386EC-8D84-4A6B-98F7-0299CC6BCADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23386EC-8D84-4A6B-98F7-0299CC6BCADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23386EC-8D84-4A6B-98F7-0299CC6BCADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
