@@ -9,6 +9,7 @@ jobs:
           - run: apt-get update 
           - run: apt-get install -y nuget mono-complete
           - run: nuget update -self
+          - run: cd dotnet && nuget restore
           - run: cd dotnet && xbuild
 
 workflows:
