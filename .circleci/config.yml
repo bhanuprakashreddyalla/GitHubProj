@@ -1,7 +1,7 @@
 version: 2
 jobs:
     buildCore:
-        working_directory: ~/DotNetMono
+        working_directory: ~/EmptyWebApplication
         docker:
             - image: microsoft/dotnet:sdk
         steps:
@@ -16,3 +16,6 @@ workflows:
     jobs:
       - buildCore
     
+    
+
+
