@@ -1,7 +1,7 @@
 version: 2
 jobs:
     buildCore:
-        working_directory: ~/dotnet
+        working_directory: ~/DotNetMono
         docker:
             - image: microsoft/dotnet:sdk
         steps:
