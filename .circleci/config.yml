@@ -1,13 +1,15 @@
 version: 2
 jobs:
     buildCore:
-        working_directory: ~/EmptyWebApplication
+        working_directory: ~/benchmark-dotnet-mono-build-webapi-master
         docker:
             - image: microsoft/dotnet:sdk
         steps:
           - checkout
           - run: apt-get update 
           - run: apt-get install -y nuget mono-complete
+          - run: nuget update -self
+          - run: nuget restore
           - run: xbuild
 
 workflows:
