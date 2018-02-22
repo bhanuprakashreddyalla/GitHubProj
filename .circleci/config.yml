@@ -9,8 +9,8 @@ jobs:
           - run: apt-get update 
           - run: apt-get install -y nuget mono-complete
           - run: nuget update -self
-          - run:  cd benchmark-dotnet-mono-build-webapi-master && nuget restore
-          - run: benchmark-dotnet-mono-build-webapi-master && xbuild
+          - run: cd benchmark-dotnet-mono-build-webapi-master && nuget restore
+          - run: cd benchmark-dotnet-mono-build-webapi-master && xbuild
 
 workflows:
   version: 2
