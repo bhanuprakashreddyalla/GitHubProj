@@ -10,6 +10,10 @@ namespace CircleCIProj.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Created new Branch
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
