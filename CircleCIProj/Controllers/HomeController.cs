@@ -14,7 +14,10 @@ namespace CircleCIProj.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
